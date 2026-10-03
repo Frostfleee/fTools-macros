@@ -1,13 +1,4 @@
 {
   "version": 1,
-  "macros": [
-    {
-      "id": "1",
-      "name": "Macro test",
-      "author": "Frostfleee",
-      "description": "H E L L O !",
-      "code": "ftm1.jvazzz_b9mV4GFoLXEyxXYW4U0JIIZJHMp191lRbCFc2aRYwnv5UqXfaCWycU04cYn6M1TFvyrFTNBsE2W4fo_qyrJv_LxdlCSVJ23tTtS4WQQSsEs-Ds9N3cjvBTm4",
-      "added": "2026-10-03"
-    }
-  ]
+  "macros": []
 }
