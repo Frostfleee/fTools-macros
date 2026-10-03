@@ -1,0 +1,32 @@
+name: Submit a macro
+description: Share a macro with everyone in the fTools Community tab.
+title: "Macro: "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing! In fTools, open your macro, click **⋯ → Publish to Community**, and this form fills itself in.
+        A maintainer imports and checks every macro before it's added.
+  - type: input
+    id: name
+    attributes:
+      label: Macro name
+      placeholder: Export as PNG
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What it does and which app it's for. One or two sentences.
+      placeholder: Exports the current Photoshop document as a PNG with one key.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Share code
+      description: Starts with ftm1. In fTools, use ⋯ → Copy share code.
+    validations:
+      required: true
